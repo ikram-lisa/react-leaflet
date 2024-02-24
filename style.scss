@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.map {
+  height: 100vh;
+  width: 100%;
+}
+
+.leaflet-popup-tip {
+  background: #000;
+  color: #fff;
+}
+.leaflet-popup-content {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.leaflet-popup-content-wrapper {
+  background: #000;
+  color: #fff;
+  border-radius: 6px;
+  padding: 4px 14px;
+}
+.leaflet-popup-close-button span {
+  color: white;
+  transition: all 300ms;
+  display: inline-block;
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.clusterIcon {
+  background-color: purple;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 0 0 4px black;
+  outline: 5px solid rgba(purple, 0.8);
+  // transition: all 250ms;
+  &--pink {
+    background-color: #f59cdf;
+    outline-color: rgba(#f59cdf, 0.55);
+  }
+  &--orange {
+    background-color: #ffa90a;
+    outline-color: rgba(#ffa90a, 0.55);
+  }
+  &--yellow {
+    background-color: #ffff00;
+    outline-color: rgba(#ffff00, 0.55);
+  }
+  &--radium {
+    background-color: #7fff00;
+    outline-color: rgba(#7fff00, 0.55);
+  }
+  &--green {
+    background-color: #00ff00;
+    outline-color: rgba(#00ff00, 0.55);
+  }
+  &--lightgreen {
+    background-color: #00ff7f;
+    outline-color: rgba(#00ff7f, 0.55);
+  }
+  &--aqua {
+    background-color: #00ffff;
+    outline-color: rgba(#00ffff, 0.55);
+  }
+  &--azure {
+    background-color: #007fff;
+    outline-color: rgba(#007fff, 0.55);
+  }
+  &--blue {
+    background-color: #0000ff;
+    outline-color: rgba(#0000ff, 0.55);
+  }
+  &--violet {
+    background-color: #7f00ff;
+    outline-color: rgba(#7f00ff, 0.55);
+  }
+}
