@@ -7,7 +7,10 @@
     "dev": "vite --open --host",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "surge ./dist react-leaflet-ikram.surge.sh",
+    "postdeploy": ""
   },
   "dependencies": {
     "react": "^18.2.0",
