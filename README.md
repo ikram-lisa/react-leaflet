@@ -10,6 +10,7 @@ You can see the React-Leaflet Map Application in action at visit [react-leaflet-
 
 To integrate the `React-Leaflet` Map Application in your project, follow these steps:
 
+```
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Controller from "./Controller";
@@ -69,7 +70,5 @@ Visualize and interact with the map component's props and states in Storybook:
 
 For questions, issues, or feature requests, please contact [Ikram](mailto:ikramlam26@gmail.com). Contributions to the `Controller` component are welcome. Please ensure that your contributions adhere to the existing coding and styling standards.
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would
-
-```
 
 ```
