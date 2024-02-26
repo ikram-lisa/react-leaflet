@@ -4,7 +4,7 @@ is a dynamic, interactive mapping solution developed using React and the react-l
 
 ## Live Demo
 
-You can see the React-Leaflet Map Application in action atreact-leaflet-ikram.surge.sh.
+You can see the React-Leaflet Map Application in action at visit [react-leaflet-ikram.surge.sh]("https://react-leaflet-ikram.surge.sh")
 
 ## Usage
 
@@ -34,13 +34,11 @@ return (
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 <Controller />
-
-    </MapContainer>
-
+</MapContainer>
 );
 };
 
-## Features
+## Feature Descriptions
 
 - Dynamic Marker Clustering: Utilizes useSupercluster for efficiently managing and displaying a large number of markers.
   Customizable Markers: Customize markers with leaflet Icons and DivIcons.
@@ -66,3 +64,12 @@ Contributions are welcomed. Please adhere to standard pull request practices. Fo
 
 Storybook Integration
 Visualize and interact with the map component's props and states in Storybook:
+
+## Contributing
+
+For questions, issues, or feature requests, please contact [Ikram](mailto:ikramlam26@gmail.com). Contributions to the `Controller` component are welcome. Please ensure that your contributions adhere to the existing coding and styling standards.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would
+
+```
+
+```
